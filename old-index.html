@@ -1,0 +1,483 @@
+<title>Tanvi Bajpai's Webpage</title><!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tanvi Bajpai's Webpage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+
+  <style>
+  #navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #770a44;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ffffff;
+  color: black;
+  z-index: 2;
+}
+
+#navbar a.active {
+  background-color: #ffffff;
+  color: white;
+  z-index: 2;
+
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+  @font-face {
+   font-family:"aileron-thin";
+   src: url("aileron/Aileron-Thin.otf");
+    
+  }
+  @font-face {
+    font-family:"aileron";
+    src: url("aileron/Aileron-Regular.otf");
+  }
+  .bg-1 { 
+    background-color: #770a44;
+    color: #ffffff; 
+    font-family: Helvetica}
+    .bg-2 {
+      background-color: #ffffff;
+      color: #770a44;
+      font-family: Helvetica;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-top:10px
+      margin-bottom:500px;
+      padding-bottom: 100px;
+    }
+    .bg-3 {
+      background-color: #770a44;
+      color: #ffffff; 
+      font-family:Helvetica;
+    }
+    .btn {
+      border: none;
+      background-color: inherit;
+      font-family: Helvetica;
+      padding: 14px 28px;
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-block;
+      color: #770a44;
+
+    }
+
+    /* On mouse-over */
+    .btn:hover {background: #eee;}
+
+    .border { border-width: 5px; border-color: white; border-style: solid; } 
+
+
+
+
+  </style>
+  <script type="text/javascript">
+
+    function changeAbout() {
+      var x = document.getElementById("about");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("research").style.display = "none";
+        document.getElementById("teach").style.display = "none";
+        document.getElementById("resume").style.display = "none";
+        document.getElementById("misc").style.display = "none";
+        document.getElementById("photo").style.display = "none";
+      }
+    }
+
+    function changeResearch() {
+      var x = document.getElementById("research");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("teach").style.display = "none";
+        document.getElementById("resume").style.display = "none";
+        document.getElementById("misc").style.display = "none";
+        document.getElementById("photo").style.display = "none";
+
+      } 
+    }
+
+    function changeTeaching() {
+      var x = document.getElementById("teach");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("research").style.display = "none";
+        document.getElementById("resume").style.display = "none";
+        document.getElementById("misc").style.display = "none";
+        document.getElementById("photo").style.display = "none";
+
+      } 
+    }
+
+    function changeResume() {
+      var x = document.getElementById("resume");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("research").style.display = "none";
+        document.getElementById("teach").style.display = "none";
+        document.getElementById("misc").style.display = "none";
+        document.getElementById("photo").style.display = "none";
+
+      } 
+    }
+
+    function changeMisc() { 
+      var x = document.getElementById("misc");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("research").style.display = "none";
+        document.getElementById("teach").style.display = "none";
+        document.getElementById("resume").style.display = "none";
+        document.getElementById("photo").style.display = "none";
+
+      } 
+    }
+
+    function changePhoto() { 
+      var x = document.getElementById("photo");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+        document.getElementById("about").style.display = "none";
+        document.getElementById("research").style.display = "none";
+        document.getElementById("teach").style.display = "none";
+        document.getElementById("resume").style.display = "none";
+        document.getElementById("misc").style.display = "none";
+
+      } 
+    }
+
+
+  </script>
+</head>
+<body>
+
+
+  
+<div class="container-fluid bg-1 text-center">
+  <img src="headshot.jpg" class="img-circle border" alt="profile" style='margin:10px; margin-top:20px' border="5">
+    <h1 style='font-size: 65px'>Tanvi Bajpai</h1>
+    <a href="https://twitter.com/officialtanvi"><i class="fab fa-twitter-square fa-3x" style='margin: 10px; color:white'></i></a>
+    <a href="https://www.linkedin.com/in/tanvibajpai/"><i class="fab fa-linkedin fa-3x" style='margin: 10px; color:white'></i></a>
+    <a href="https://www.github.com/tanvibajpai/"><i class="fab fa-github-square fa-3x" style='margin: 10px; color:white'></i></a>
+</div>
+
+<nav id="navbar" class="navbar navbar-default" style="z-index: 100">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <button class="btn" onclick="changeAbout()">ABOUT</button>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+
+        <button class="btn" onclick="changeResearch()">RESEARCH</button>
+        <button class="btn" onclick="changeTeaching()">TEACHING</button>
+        <button class="btn" onclick="changeResume()">RESUME</button>
+        <button class="btn" onclick="changePhoto()">PHOTOGRAPHY</button>
+        <button class="btn" onclick="changeMisc()">MISC</button>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
+<div id="about" class="row">
+<div class="col-sm-3 bg-2 text-center" style='padding:100x'>
+</div>
+<div class="col-sm-6 bg-2">
+  <p style='font-size: 40px; margin-top: 10px'>
+  Hi hello! 
+  </p>
+  
+  <p style='font-size: 25px'>
+  I am currently a second year PhD student at the <a href="https://cs.illinois.edu/">University of Illinois at Urbana-Champaign.</a> 
+  </p>
+  <p style='font-size: 25px'>
+  My area of interest is <b>theoretical computer science</b> (fair algorithm design, approximation algorithms) and <b>human-computer interaction</b> (content moderation, fair system design). I am currently working with Chandra Chekuri and Eshwar Chandrasekharan.  As an undergraduate, I worked with <a href="https://www.contrib.andrew.cmu.edu/~ravi/">Professor R. Ravi</a> on projects relating to algorithm design for recommendation system diversification and student-question ranking problems. During the summer of 2018, I worked with <a href="http://www.cs.umd.edu/users/samir/">Professor Samir Khuller</a> on fair clustering algorithms. 
+  </p>
+  <p style='font-size: 25px'>I was formerly an undergraduate studying <b>Computer Science</b> and <b>Discrete Mathematics and Logic</b> at <a href="https://www.cs.cmu.edu/">Carnegie Mellon University</a>. 
+  </p>
+  <p style='font-size: 25px'>
+  I grew up in Princeton Junction, New Jersey, which is around ten minutes outside of Princeton University. During high school, I had the opportunity to participate in the <a href="https://algorithmicthinking.org/">Program for Algorithmic and Combinatorial Thinking</a>, which inspired my love for theory and discrete math. 
+  </p>
+
+  
+</div>
+<div class="col-sm-3"></div>
+</div>
+
+<div id="photo" class="row" style="display:none">
+<div class="col-sm-3 bg-2 text-center" style='padding:100x'>
+</div>
+<div class="col-sm-6 bg-2">
+  <p style='font-size: 30px;font-family: Helvetica, sans-serif'>
+    <i>Photography</i>
+  </p>
+  <p style='font-size:20px'>
+    I really like taking concert photos on my iPhone. Here is a <a href="/photo">portfolio.</a>
+  </p>
+
+  
+</div>
+<div class="col-sm-3"></div>
+</div>
+
+
+<div id="research" class="row" style="display:none">
+<div class="col-sm-3 bg-2 text-center" style='padding:100x'>
+</div>
+<div class="col-sm-6 bg-2">
+  <p style='font-size: 30px; margin-top: 10px'>
+  Publications
+  </p>
+   <ul style = 'font-size: 20px; margin-top: 10px'>
+     <li>
+      <a href="https://www.cs.dartmouth.edu/~maryam/Priority-k-Center-Full.pdf"> Revisiting Priority k-Center: Fairness and Outliers.</a> Tanvi Bajpai, Deeparnab
+    Chakrabarty, Chandra Chekuri, Maryam Negahbani (2020) (pre-print; submitted to
+  ICALP)
+     </li>
+   <li>
+     <a href="https://epubs.siam.org/doi/abs/10.1137/18M1226014">A new system-wide diversity measure for recommendations with efficient algorithms.</a> Arda Antikacioglu, Tanvi Bajpai, R. Ravi, SIAM Journal on Mathematics
+  of Data Science, 1(4), 759779. (2019).
+     </li>
+  </ul>
+     <p style='font-size: 30px; margin-top: 10px'>
+  Research Projects
+  </p>
+    <ul style = 'font-size: 20px; margin-top: 10px'>
+     
+      <li>
+        <a href="https://www.youtube.com/watch?v=2pN1Nx7-sd0">Bootstrapping Virtuous Active Learning cYcles (BOVALY)</a>
+        <p>Work done with R. Ravi, Wolfgang Gatterbauer, and Deep Mitra</p>
+      </li>
+      <li>
+        <a href="/files/Fair_Clustering_Talk.pdf">Fair Clustering with Outliers</a> (talk)
+        <p>Research done at REU-CAAR with Mik Zlatin, advised by Samir Khuller</p>
+      </li>
+  </ul>
+
+
+</div>
+<div class="col-sm-3"></div>
+</div>
+
+<div id="teach" class="row" style="display:none">
+<div class="col-sm-3 bg-2 text-center" style='padding:100x'>
+</div>
+<div class="col-sm-6 bg-2">
+  <p style='font-size: 25px; margin-top: 10px'>
+  I have been a teaching assistant (TA) for the following courses:
+  
+  <p style='font-size: 25px; margin-top: 10px; font-family:"Helvetica, sans-serif"'>  
+  <strong>University of Illinois at Urbana-Champaign</strong>
+        <ul style = 'font-size: 20px; margin-top: 10px'>
+        <li>
+          <strong>CS173: Discrete Structures</strong>
+          <p>(F19+, Summer 20+)</p>
+        </li>
+          
+        <li>
+          <strong>CS374: Introduction to Algorithms and Models of Computation </strong>
+          <p>(F20+)</p>
+        </li>
+           <li>
+          <strong>CS473: Algorithms </strong>
+          <p>(S20)</p>
+        </li>
+        </ul>
+        + - semester placed on ”Teachers Ranked as Excellent” list
+      </p>
+    <p style='font-size: 25px; margin-top: 10px; font-family:"Helvetica, sans-serif"'>  
+    <strong>Carnegie Mellon University</strong>
+        <ul style = 'font-size: 20px; margin-top: 10px'>
+        <li>
+          <strong>15-151: Mathematical Foundations for Computer Science</strong>
+          <p>taught by Professor John Mackey (F16, F17*, F18*)</p>
+        </li>
+          
+        <li>
+          <strong>15-451/651: Algorithm Design and Analysis</strong>
+          <p>taught by Professors Anupam Gupta and David Woodruff (S18, S19)</p>
+        </li>
+        </ul>
+        * - semester spent as Head TA
+      </p>
+    </p>
+
+
+</div>
+<div class="col-sm-3"></div>
+</div>
+
+
+<div id="resume" class="row" style="display:none">
+<div class="col-sm-3 bg-2 text-center" style='padding:100x'>
+</div>
+<div class="col-sm-6 bg-2">
+  <p style='font-size: 25px; margin-top: 10px'>
+  Here is my <a href="/files/my_CV.pdf">CV</a>(last update was January 2021). 
+  
+  </p>
+   <p style='font-size: 25px;'>
+    <strong>Awards</strong>
+  </p>
+   <p style='font-size: 25px'>
+    I have been incredibly fortunate to have won the following awards:
+    <ul style='font-size: 25px'>
+      <li> <a href="https://www.cs.cmu.edu/news/bajpai-wang-earn-stehlik-scholarships">The Mark Stehlik Undergraduate Impact Scholarship</a> </li> 
+      <li><a href="https://www.cmu.edu/cmwa/awards/2018-2019.html">The Carnegie Mellon Women's Association outstanding graduating student award</a>  </li>
+      <li><a href="https://www.cs.cmu.edu/~scsfacts/bajpai.html">The Mark Stehlik Introductory and Service Teaching Award</a> (*)</li> 
+      <li><a href="https://www.cmu.edu/news/stories/archives/2019/may/kl-gates-prize.html">The K&L Gates Prize</a></li>
+    </ul>
+    (*) - I asked to be nominated for this award. I think it's important for students reading this to know that asking for nominations is acceptable, especially if you feel you should be nominated. I would not have been nominated for this award had I not asked, and subsequently I would not have won if I didn't deserve to be nominated.  <a href="https://twitter.com/jenheemstra/status/1097042386209947648">Here</a> is a particularly interesting twitter thread about this topic. 
+  </p>
+
+
+  
+  </p>
+</div>
+<div class="col-sm-3"></div>
+</div>
+
+<div id="misc" class="row" style="display:none">
+<div class="col-sm-3 bg-2 text-center" style='padding:100x'>
+</div>
+<div class="col-sm-6 bg-2">
+  <p style='font-size: 25px; margin-top: 10px'>
+  This tab's primary purpose is for me to dump random things that I don't know where to put. 
+  </p>
+  
+  
+  <p style='font-size: 30px;font-family: Helvetica, sans-serif'>
+    <i>Dogs</i>
+  </p>
+  <p style='font-size:20px'>
+    I am a dog person. <a href="/doggos.html">Here is a page of all the dogs I've met in academia</a> (will be updated both frequently and sporadically).
+  </p>
+   
+   <p style='font-size: 30px;font-family: Helvetica, sans-serif'>
+    <i>Passions</i>
+  </p>
+  <p style='font-size: 25px;font-family: Helvetica, sans-serif'>
+    Diversity and Representation
+  </p>
+  <p style='font-size:20px'>
+    I am absurdly passionate about diversity and representation in Computer Science. I have been an active member of <a href="https://www.women.cs.cmu.edu/test-site/">W@SCS</a> and <a href="https://www.scs4all.cs.cmu.edu/">SCS4ALL</a> while at CMU.  
+
+    Some cool things I've planned for W@SCS include
+    <ul style='font-size:20px'>
+      <li><p style='font-family: Helvetica; margin-bottom:1px'>Secrets From the Loud Girls Panel</p> A panel where women student leaders open up about their experiences with imposterism, low-self confidence, and how they have (or have not) overcome those feelings. </li>
+      <li><p style='font-family: Helvetica; margin-bottom:1px'>Teaching Assistant Panel</p>A panel for anyone interested in being a TA. Panel members happen to all be women, since its original purpose was to encourage more women to try for TA positions. Many courses have seen an increase in women who express interest in TAing after the conception of this panel (correlation != causation, but that was really good news to hear!)</li>
+
+    </ul>
+  </p>
+  <p style='font-size: 25px;font-family: Helvetica, sans-serif'>
+    CS Education and Pedagogy
+  </p>
+  <p style='font-size:20px'>
+    I am equally passionate about CS education and pedagogy, and have been lucky to have <a href="http://www.cs.cmu.edu/~aada/">Anil Ada</a> as my academic advisor and mentor. I pester him a lot with pedagogical debates and ideas. I may start a blog with more of my thoughts about this topic (no promises though since I am (1) not really good at following through on things I propose and (2) still a student and somewhat not qualified).
+
+    Ada and Umut Acar won an award for Diderot, an "online textbook" learning system, read more about it <a href="https://www.cmu.edu/piper/news/archives/2019/april/celebration-of-education.html">here!</a>
+
+    
+    </ul>
+  </p>
+  <p style='font-size: 25px;font-family: Helvetica, sans-serif'>
+    Mental Health Awareness
+  </p>
+  <p style='font-size:20px'>
+    I am also very passionate about bringing awareness to mental health. Mental health is important, and I have my personal struggles with it. Again, I may or may not go into more detail about this on a hypothetical blog. We'll see.  
+  </p>
+
+   <p style='font-size: 30px;font-family: Helvetica, sans-serif'>
+    <i>Cartoons</i>
+  </p>
+  <p style='font-size:20px'>
+    I have had the (odd) honor of being turned into a cartoon by my friend Parmita. 
+    <a href="/cartoon.html">Here is a page of cartoons she's made of me!</a>
+  </p>
+
+  <p style='font-size: 30px;font-family: Helvetica, sans-serif'>
+    <i>Writing</i>
+  </p>
+
+  <p style='font-size:20px'>
+    In my formative (read: angsty teen) years I wrote articles for <a href="https://hellogiggles.com/author/tanvi-bajpai/">HelloGiggles</a>. 
+
+    I've had an <a href="https://www.csd.cs.cmu.edu/news/scs-junior-reflects-cmu-experience">article</a> written about me, which is pretty cool too.
+
+    Might start a blog so I can turn my long twitter ramblings into proper content.
+  </p>
+
+  <p style='font-size: 30px;font-family: Helvetica, sans-serif'>
+    <i>Pranks</i>
+  </p>
+
+  <p style='font-size:20px'>
+    I have been known to pull the occasional <a href="/prank.html">prank</a> :) 
+  </p>
+
+  
+  </p>
+</div>
+</div>
+
+</body>
+</html>
