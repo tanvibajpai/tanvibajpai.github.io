@@ -7,6 +7,8 @@
     --blue: #002642;
     --light-blue: #3C7A89;
     --yellow: #BFAE48;
+    --tcs: #EE4266;
+    --hci: #FFD23F;
 }
 html, body, div {
   margin: 0;
@@ -69,6 +71,12 @@ li {
   emph3 {
     color: var(--acc);
   }
+  emph-tcs {
+      color: var(--tcs)
+    }
+    emph-hci {
+      color: var(--hci)
+    }
   p {
     margin-bottom: 0;
   }
