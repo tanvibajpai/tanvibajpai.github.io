@@ -70,12 +70,15 @@ li {
   }
   emph3 {
     color: var(--acc);
+      
   }
   emph-tcs {
-      color: var(--tcs)
+      color: var(--tcs);
+      font-weight: bold;
     }
     emph-hci {
-      color: var(--hci)
+      color: var(--hci);
+      font-weight: bold;
     }
   p {
     margin-bottom: 0;
