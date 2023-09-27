@@ -7,8 +7,9 @@
     --blue: #002642;
     --light-blue: #3C7A89;
     --yellow: #BFAE48;
-    --tcs: #98473E;
-    --hci: #556F44;
+    --tcs: #B42D3F;
+    --hci: #1B4079;
+    --both: #693A92;
 }
 html, body, div {
   margin: 0;
@@ -78,6 +79,10 @@ li {
     }
     emph-hci {
       color: var(--hci);
+      font-weight: bold;
+    }
+    emph-both {
+      color: var(--both);
       font-weight: bold;
     }
   p {
