@@ -10,6 +10,7 @@
     --tcs: #B42D3F;
     --hci: #0E6BA8;
     --both: #693A92;
+    --other: #28796a;
 }
 html, body, div {
   margin: 0;
@@ -49,7 +50,7 @@ li {
     font-size:300%;
     margin: 0.5em 0 0 0;
   }
-  h1,h2,h3 {
+  h1,h2,h3, h4{
     
     font-weight: inherit;
   }
@@ -63,6 +64,17 @@ li {
     margin-bottom: 0;
     font-size:150%;
   }
+
+  h4 {
+    color:var(--acc);
+    margin-bottom: 0;
+    font-size:120%;
+  }
+
+
+
+
+
   emph {
     color: var(--u);
   }
@@ -84,6 +96,13 @@ li {
     emph-both {
       color: var(--both);
       font-weight: bold;
+    }
+    emph-other {
+      color: var(--other);
+      font-weight: bold;
+    }
+    emph-4 {
+      font-weigth: 650;
     }
   p {
     margin-bottom: 0;
@@ -186,3 +205,8 @@ li {
   }
 
   .btn:focus { outline-style: none; }
+
+  section.cool-theme-2 h4 {
+    margin: 0;
+    padding: 0;
+}
